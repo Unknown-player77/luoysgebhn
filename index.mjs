@@ -10,7 +10,7 @@ import {
   ApplicationCommandOptionType,
 } from "discord.js";
 import { Dalle } from "node-dall-ai-2";
-import config from "./config";
+import config from "./config.mjs";
 
 const client = new Client({
   intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages],
